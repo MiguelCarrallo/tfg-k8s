@@ -1,7 +1,7 @@
 grafana:
   service:
     type: ClusterIP
-  adminPassword: admin
+  adminPassword: CHANGE_ME
   sidecar:
     dashboards:
       enabled: true
