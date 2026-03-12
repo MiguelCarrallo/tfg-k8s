@@ -1,4 +1,4 @@
-# Kubernetes Enterprise Environment – TFG Project
+# Kubernetes Enterprise Environment – Final Degree Project
 
 This repository contains the implementation of a Kubernetes-based enterprise environment developed as part of a Final Degree Project.
 
