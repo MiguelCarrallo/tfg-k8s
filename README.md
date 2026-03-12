@@ -1,6 +1,10 @@
 # Kubernetes Enterprise Environment – Final Degree Project
 > Design and implementation of a secure, observable and scalable Kubernetes infrastructure using Minikube and AWS EKS.
 
+**Tech Stack**
+
+Kubernetes · AWS EKS · Docker · Helm · Prometheus · Grafana · Infrastructure as Code
+
 This repository contains the implementation of a Kubernetes-based enterprise environment developed as part of a Final Degree Project.
 
 The objective of this project was to design and deploy a **secure, observable, and scalable Kubernetes infrastructure**, applying real-world DevOps and cloud architecture principles.
