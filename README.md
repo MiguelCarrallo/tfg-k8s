@@ -1,4 +1,5 @@
 # Kubernetes Enterprise Environment – Final Degree Project
+> Design and implementation of a secure, observable and scalable Kubernetes infrastructure using Minikube and AWS EKS.
 
 This repository contains the implementation of a Kubernetes-based enterprise environment developed as part of a Final Degree Project.
 
