@@ -1,0 +1,26 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: qa-readonly
+  namespace: pre
+rules:
+- apiGroups: [""]
+  resources: ["pods", "services", "configmaps"]
+  verbs: ["get", "list", "watch"]
+- apiGroups: ["apps"]
+  resources: ["deployments"]
+  verbs: ["get", "list", "watch"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: qa-user-binding
+  namespace: pre
+subjects:
+- kind: User
+  name: qa-user
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: qa-readonly
+  apiGroup: rbac.authorization.k8s.io

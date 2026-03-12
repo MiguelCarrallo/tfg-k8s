@@ -1,0 +1,12 @@
+grafana:
+  service:
+    type: ClusterIP
+  adminPassword: admin
+  sidecar:
+    dashboards:
+      enabled: true
+
+prometheus:
+  prometheusSpec:
+    serviceMonitorSelectorNilUsesHelmValues: false
+    storageSpec: null

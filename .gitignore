@@ -1,0 +1,7 @@
+*.log
+*.tmp
+*.swp
+.vscode/
+.idea/
+.DS_Store
+*.deb

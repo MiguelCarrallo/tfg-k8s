@@ -1,0 +1,16 @@
+# ~/tfg/manifests/namespaces.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dev
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: pre
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: monitoring
+
